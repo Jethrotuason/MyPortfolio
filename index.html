@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jetwoo Tuazon's Portfolio</title>
+    <link rel="stylesheet" href="projects/assets/css/styles.css">
+    <link rel="stylesheet" href="projects/assets/css/parts-styles.css">
+    <link rel="stylesheet" href="projects/assets/css/animation.css">
+    <script defer src="projects/assets/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="img-logo" src="projects/assets/images/header-pic/logo.jpg" alt="Jetwoo Tuazon" class="profile-picture">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main>
+        <!-- Home Section -->    
+        <section id="home" class="panel home">
+            <div class="intro-container">
+                <img src="projects/assets/images/home-pic/profile.jpg" alt="Jetwoo Tuazon" class="profile-picture fade-in-left">
+                <div class="intro-text">
+                    <h1 class="fade-in-above">Hi, I'm Jetwoo Tuason</h1>
+                    <p class="fade-in-below">I absolutely love working with computer hardware. There's nothing better 
+                        than getting my hands on the latest tech, building custom PCs, and helping 
+                        people solve their computer problems. Whether you need a new build or your 
+                        system's acting up, I'm here to help!
+                    </p>
+                    <a href="#portfolio" class="cta-button fade-in-right">View My Work</a>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="panel about">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2 class="fade-in-above">About Me</h2>
+                <p class="fade-in-left">
+                  Hello! I'm Jetwoo Tuazon, a computer hardware enthusiast with a deep love for everything
+                   PC-related. My journey started with taking apart my first computer out of curiosity, 
+                   and it has grown into a passion for building and troubleshooting systems that help 
+                   people get the most out of their technology.
+                </p>
+                <p class="fade-in-left">
+                   I specialize in custom PC builds and hardware optimization, making sure every system runs 
+                   at its best. When I'm not working with hardware, you can find me researching the latest 
+                   tech releases, exploring new hardware combinations, and helping others find the perfect 
+                   setup for their needs.
+                </p>
+                    <a href="#portfolio" class="cta-button fade-in-below">Explore My Work</a>
+                </div>
+                <div class="about-image fade-in-right">
+                    <img src="projects/assets/images/about-pic/as_student.jpg" alt="Jetwoo Tuazon">
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Experiences Section -->
+        <section id="experiences" class="panel experiences">
+            <h3 class="fade-in-above">Experiences</h3>
+            <div class="experience-items">
+                <div class="experience-item fade-in-left">
+                    <h3>Hardware Technician</h3>
+                    <p><strong>Okt Mitsumi Philippines</strong> - Performed quality control and testing of computer hardware components. Conducted thorough inspections and diagnostics to ensure products meet strict quality standards and specifications.</p>
+                </div>
+                <div class="experience-item fade-in-below">
+                    <h3>Assembly Line Specialist</h3>
+                    <p><strong>Okt Mitsumi Philippines</strong> - Assembled and tested electronic components with precision. Maintained detailed documentation of assembly processes and collaborated with team members to optimize production efficiency.</p>
+                </div>
+                <div class="experience-item fade-in-right">
+                    <h3>Quality Assurance Inspector</h3>
+                    <p><strong>Okt Mitsumi Philippines</strong> - Conducted comprehensive testing of electronic components and computer peripherals. Identified and documented quality issues while maintaining high standards for product reliability.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="panel portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-content">
+                <!-- Objective Section -->
+                <div class="portfolio-objective fade-in-above">
+                    <h3>Objective</h3>
+                    <p>
+                        As a hardware passionate, I aim to leverage my technical expertise to deliver reliable computer solutions and exceptional service. I'm passionate about building, optimizing, and maintaining systems that meet each client's unique needs.
+                    </p>
+                </div>
+
+                <div class="portfolio-boxes">
+                 <!-- Education Section -->
+                    <div class="section-block fade-in-left">
+                      <h3>Education</h3>
+                      <div class="education-item">
+                        <h4>CITE Technical Institute, Inc. [San Jose, Cebu City]</h4>
+                        <p>●Diploma in Computer Engineering Technology</p>
+                        <p>2022 - 2025</p>
+                      </div>
+                    </div>
+
+                 <!-- Resume Download -->
+                    <div class="section-block fade-in-right">
+                       <h3>Resume</h3>
+                       <p>Want to know more about my qualifications?</p>
+                       <p class="blue" onclick="dlResume()" class="resume-button" download>Download Resume</p>
+
+                       <p>Want to see my DAS at the company I'm with right now?</p>
+                       <a href="https://docs.google.com/spreadsheets/d/1GOEsGIGoo_Y58zDjvOvRJRsifm4YZAQF3r_E_60zRus/edit?gid=783468446#gid=783468446" class="resume-button" download>Click here to see.</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <!-- Contacts Section -->
+        <section id="contacts" class="panel contacts">
+            <h2 class="fade-in-above">Contact Me</h2>
+            <form class="fade-in-left">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button class="fade-in-below" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jetwoo Tuazon. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
